@@ -1,0 +1,138 @@
+.Container{
+    border: 1px solid grey;
+    height:auto;
+    margin: 8vh 5vw;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Containertwo{
+    padding: 20px;
+    height: auto;
+    width: 100%;
+}
+
+.left-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto ;
+    width: 100%;
+}
+
+.right-block{
+    display: flex;
+    justify-content: end;
+    height: auto;
+    width: 100%;
+}
+.icon{
+    margin-top: 20px;
+    width: 100px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.Profession{
+    margin: 30px 0 0 0;
+    font-size: 36px;
+    color: white;
+}
+
+.completed{
+    margin-top: 20px;
+}
+.secondIcon{
+    height: 20px;
+}
+
+.date{
+    display: inline;
+    color: white;
+}
+
+.diploma-mobile{
+    margin: 20px 0 0 0;
+    padding: 0 10px;
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+}
+
+.diploma-laptop{
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+}
+
+.Download-btn{
+    margin-top: 50px;
+    border-style: none;
+    background: #FFC0C7;
+    color: #282A35;
+    padding: 14px 40px;
+    border-radius: 25px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+
+.Download-btn:hover{
+    opacity: 90%;
+}
+.learn-more{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.learn-more:hover{
+    text-decoration: underline;
+}
+
+
+@media screen and (max-width:992px){
+    .diploma-laptop{
+        display: none;
+    }
+    .Containertwo{
+        padding: 0;
+    }
+}
+@media screen and (min-width:992px){
+    .diploma-laptop{
+        display: flex;
+        align-items: end;
+        height: auto;
+        width: 100%;
+    }
+
+    .Containertwo{
+        display: flex;
+        flex-direction:row;
+        align-items:center;
+        justify-content: center;
+    }
+    .left-block{
+        height: auto;
+        width: 100%;
+    }
+    .right-block{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+@media screen and (min-width:992px){
+    .diploma-mobile{
+        display: none;
+    }
+}
+
